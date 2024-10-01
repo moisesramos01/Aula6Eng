@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura da viewport */
+    margin: 0; 
+    background: linear-gradient(to bottom, black, rgb(20, 114, 236)); /* Gradiente do preto para azul */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+.centralizado {
+    text-align: center; 
+    padding: 20px; /* Adiciona espaçamento interno */
+    border: 1px solid #ccc; /* Borda para destaque */
+    border-radius: 8px; /* Cantos arredondados */
+    background-color: white; /* Fundo do formulário */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+
+input[type="text"],
+input[type="password"] {
+    background-color: #00ffaa; 
+    border: 1px solid #00ff80; 
+    border-radius: 4px; 
+    padding: 10px; 
+    font-size: 16px; 
+    color: #333; 
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: #00ffaa; 
+    border: 1px solid #00ff80; 
+    outline: none; 
+}
+
+#mensagem{ background-color: rgba(174, 0, 255, 0.445);}
